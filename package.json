@@ -17,6 +17,6 @@
     "mocha": "1.0.0",
     "sinon": "1.3.x",
     "docco": "latest",
-    "connect": "latest"
+    "connect": "2.X.X"
   }
 }
