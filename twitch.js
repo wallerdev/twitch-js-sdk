@@ -30,6 +30,7 @@
 
     if (authenticated) params.oauth_token = Twitch._config.session.token;
     if (options.verb) params._method = options.verb;
+    params.client_id = Twitch._config.clientId;
 
 
     // When using JSONP, any error response will have a
